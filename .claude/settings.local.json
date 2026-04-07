@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Command node -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -Command '$PSVersionTable.PSVersion')",
+      "Bash(powershell -Command \"node -e ''console.log\\(1\\)''\")",
+      "Bash(powershell -Command \"Get-Command node\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/pc/Documents/Github/Website/scripts/build.ps1\")"
+    ]
+  }
+}
